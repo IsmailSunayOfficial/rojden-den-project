@@ -37,12 +37,12 @@ export default function Gallery() {
     // Навигация
     const goToPrevious = () => {
         if (selectedIndex === null) return;
-        setSelectedIndex(prev => (prev - 1 + shuffledPhotos.length) % shuffledPhotos.length);
+        setSelectedIndex((selectedIndex - 1 + shuffledPhotos.length) % shuffledPhotos.length);
     };
 
     const goToNext = () => {
         if (selectedIndex === null) return;
-        setSelectedIndex(prev => (prev + 1) % shuffledPhotos.length);
+        setSelectedIndex((selectedIndex + 1) % shuffledPhotos.length);
     };
 
     // Keyboard controls

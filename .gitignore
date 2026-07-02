@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+
+# Node
+node_modules/
+
+# Build
+dist/
+
+# Logs
+*.log

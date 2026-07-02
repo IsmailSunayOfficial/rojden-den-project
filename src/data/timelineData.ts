@@ -1,3 +1,7 @@
+import firstImage from '../assets/images/1782947740639.jpg';
+import secondImage from '../assets/images/1782947740627.jpg';
+import firstVideo from '../assets/videos/936e9081-74bc-4018-8f74-4319a2856c4e.mp4';
+
 export interface TimelineMoment {
     id: string;
     title: string;
@@ -10,7 +14,7 @@ export const timelineData: TimelineMoment[] = [
     {
         id: 'purva-sreshta',
         title: '❤️ Първата ни среща',
-        image: '/assets/images/1782947740639.jpg',     // ← започва с /
+        image: firstImage,
         text: [
             'Денят, в който всичко започна.',
             'Не знаех какво ни очаква, но още тогава разбрах, че си специален човек.',
@@ -20,17 +24,17 @@ export const timelineData: TimelineMoment[] = [
     {
         id: 'purvo-kino',
         title: '❤️ Първото ни кино',
-        video: '/assets/videos/936e9081-74bc-4018-8f74-4319a2856c4e.mp4',  // ← започва с /
+        video: firstVideo,
         text: [
             'Една прожекция.',
             'Две усмивки.',
-            'Още един красив спомен, който никога няма да забравя.'
+            'Още един красив спомен, който никога няма да забравя.',
         ],
     },
     {
         id: 'purva-pochivka',
         title: '❤️ Първата ни почивка',
-        image: '/assets/images/1782947740627.jpg',     // ← започва с /
+        image: secondImage,
         text: [
             'Първата ни почивка.',
             'Първата ни Нова година.',
@@ -38,4 +42,4 @@ export const timelineData: TimelineMoment[] = [
             'Надявам се това да бъде само началото на още безброй такива моменти.',
         ],
     },
-]
+];

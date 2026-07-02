@@ -71,7 +71,7 @@ export default function LoveInLanguages() {
             {/* Grid със знамената */}
             <div className="w-full max-w-3xl glass-card p-6">
                 <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-3">
-                    {filtered.map((item, idx) => {
+                    {filtered.map((item) => {
                         const originalIndex = languagesData.indexOf(item)
                         const isSelected = originalIndex === selectedIndex
 

@@ -5,7 +5,8 @@ export interface TimelineMoment {
    * Пътят до снимката. Замени с истинската снимка в src/assets/images/
    * и обнови пътя тук, например: import purviaSreshta from '../assets/images/purva-sreshta.jpg'
    */
-  image: string
+  image?: string
+  video?: string
   text: string[]
 }
 
